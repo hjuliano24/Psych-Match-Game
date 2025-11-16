@@ -1,0 +1,82 @@
+﻿[
+    {
+        "id":  1,
+        "type":  "a",
+        "text":  "An injury made Ross miss the semi-finals  \"I can recover \u0026 play in the finals\""
+    },
+    {
+        "id":  1,
+        "type":  "b",
+        "text":  "Ross doesn\u0027t dwell on the past"
+    },
+    {
+        "id":  2,
+        "type":  "a",
+        "text":  "Chris lost his job after an economic downturn  \"I can get hired again\""
+    },
+    {
+        "id":  2,
+        "type":  "b",
+        "text":  "Chris has hope for his future"
+    },
+    {
+        "id":  3,
+        "type":  "a",
+        "text":  "Grandfather John feels old watching young people in the park  \"I helped create this community\""
+    },
+    {
+        "id":  3,
+        "type":  "b",
+        "text":  "John is proud of his contributions and doesn\u0027t let age weigh him down"
+    },
+    {
+        "id":  4,
+        "type":  "a",
+        "text":  "Nick felt isolated after hearing about a weekend party  \"I can invite and host friends for an event\""
+    },
+    {
+        "id":  4,
+        "type":  "b",
+        "text":  "Nick realizes he can create his own social opportunities"
+    },
+    {
+        "id":  5,
+        "type":  "a",
+        "text":  "Julian lost interest in knitting after discouragement  \"My happiness in pursuing a hobby is important\""
+    },
+    {
+        "id":  5,
+        "type":  "b",
+        "text":  "Julian knows not everyone\u0027s opinions matter and doesn\u0027t let it drag her down"
+    },
+    {
+        "id":  6,
+        "type":  "a",
+        "text":  "Jake has been experiencing fatigue after a family member\u0027s death  \"I am allowed to grieve\""
+    },
+    {
+        "id":  6,
+        "type":  "b",
+        "text":  "Jake understands that death is normal and gives himself time to process grief"
+    },
+    {
+        "id":  7,
+        "type":  "a",
+        "text":  "Ava withdrew from friends and family after a traumatic accident  \"My friends and family are not at fault for the accident\""
+    },
+    {
+        "id":  7,
+        "type":  "b",
+        "text":  "Ava realizes accidents happen and allows herself to forgive others"
+    },
+    {
+        "id":  8,
+        "type":  "a",
+        "text":  "Mary began avoiding people because she didn\u0027t feel safe  \"I will be fine; nobody is out there to get me\""
+    },
+    {
+        "id":  8,
+        "type":  "b",
+        "text":  "Mary realizes her fear is unwarranted and nobody is trying to harm her"
+    }
+]

@@ -2,17 +2,33 @@ const gridContainer = document.querySelector(".grid-container");
 let cards = [];
 let firstCard, secondCard;
 let lockBoard = false;
-let score = 0;
+let matchedPairs = new Map();
+let currentCategory = null;
+let totalPairs = 0;
 
-document.querySelector(".score").textContent = score;
+function selectCategory(categoryPath) {
+  currentCategory = categoryPath;
+  document.getElementById("choosePage").classList.remove("active");
+  document.getElementById("gamePage").classList.add("active");
+  loadGame();
+}
 
-fetch("./data/cards.json")
-  .then((res) => res.json())
-  .then((data) => {
-    cards = [...data, ...data];
-    shuffleCards();
-    generateCards();
-  });
+function goBack() {
+  document.getElementById("gamePage").classList.remove("active");
+  document.getElementById("choosePage").classList.add("active");
+  resetGame();
+}
+
+function loadGame() {
+  fetch(currentCategory)
+    .then((res) => res.json())
+    .then((data) => {
+      cards = data;
+      totalPairs = cards.length / 2;
+      shuffleCards();
+      generateCards();
+    });
+}
 
 function shuffleCards() {
   let currentIndex = cards.length,
@@ -31,10 +47,11 @@ function generateCards() {
   for (let card of cards) {
     const cardElement = document.createElement("div");
     cardElement.classList.add("card");
-    cardElement.setAttribute("data-name", card.name);
+    cardElement.setAttribute("data-id", card.id);
+    cardElement.setAttribute("data-type", card.type);
     cardElement.innerHTML = `
       <div class="front">
-        <img class="front-image" src=${card.image} />
+        <p class="card-text">${card.text}</p>
       </div>
       <div class="back"></div>
     `;
@@ -55,22 +72,39 @@ function flipCard() {
   }
 
   secondCard = this;
-  score++;
-  document.querySelector(".score").textContent = score;
   lockBoard = true;
 
   checkForMatch();
 }
 
 function checkForMatch() {
-  let isMatch = firstCard.dataset.name === secondCard.dataset.name;
+  let isMatch = firstCard.dataset.id === secondCard.dataset.id && 
+                firstCard.dataset.type !== secondCard.dataset.type;
 
   isMatch ? disableCards() : unflipCards();
 }
 
 function disableCards() {
+  const pairId = firstCard.dataset.id;
+  matchedPairs.set(pairId, {
+    aText: firstCard.dataset.type === 'a' ? firstCard.querySelector('.card-text').textContent : secondCard.querySelector('.card-text').textContent,
+    bText: firstCard.dataset.type === 'b' ? firstCard.querySelector('.card-text').textContent : secondCard.querySelector('.card-text').textContent
+  });
+
   firstCard.removeEventListener("click", flipCard);
   secondCard.removeEventListener("click", flipCard);
+  
+  firstCard.addEventListener("click", () => showLearnMore(pairId));
+  secondCard.addEventListener("click", () => showLearnMore(pairId));
+  
+  firstCard.classList.add("matched");
+  secondCard.classList.add("matched");
+
+  if (matchedPairs.size === totalPairs) {
+    setTimeout(() => {
+      showCongrats();
+    }, 500);
+  }
 
   resetBoard();
 }
@@ -91,9 +125,63 @@ function resetBoard() {
 
 function restart() {
   resetBoard();
-  shuffleCards();
-  score = 0;
-  document.querySelector(".score").textContent = score;
   gridContainer.innerHTML = "";
-  generateCards();
+  matchedPairs.clear();
+  const congratsModal = document.getElementById("congratsModal");
+  congratsModal.style.display = "none";
+  loadGame();
+}
+
+function resetGame() {
+  resetBoard();
+  gridContainer.innerHTML = "";
+  matchedPairs.clear();
+  const congratsModal = document.getElementById("congratsModal");
+  congratsModal.style.display = "none";
+}
+
+function showLearnMore(pairId) {
+  const pair = matchedPairs.get(pairId);
+  if (pair) {
+    const modal = document.getElementById("learnMoreModal");
+    const modalContent = document.getElementById("modalContent");
+    modalContent.innerHTML = `
+      <div class="modal-header">
+        <h2>Learn More - Pair ${pairId}</h2>
+        <button class="close-btn" onclick="closeLearnMore()">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="pair-text">
+          <h3>Situation:</h3>
+          <p>${pair.aText}</p>
+        </div>
+        <div class="pair-text">
+          <h3>Response:</h3>
+          <p>${pair.bText}</p>
+        </div>
+      </div>
+    `;
+    modal.style.display = "block";
+  }
+}
+
+function closeLearnMore() {
+  const modal = document.getElementById("learnMoreModal");
+  modal.style.display = "none";
+}
+
+function showCongrats() {
+  const modal = document.getElementById("congratsModal");
+  modal.style.display = "block";
+}
+
+window.onclick = function(event) {
+  const learnMoreModal = document.getElementById("learnMoreModal");
+  const congratsModal = document.getElementById("congratsModal");
+  if (event.target == learnMoreModal) {
+    learnMoreModal.style.display = "none";
+  }
+  if (event.target == congratsModal) {
+    congratsModal.style.display = "none";
+  }
 }
