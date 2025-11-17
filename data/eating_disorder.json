@@ -1,82 +1,82 @@
 ﻿[
     {
-        "id":  1,
-        "type":  "a",
-        "text":  "An injury made Ross miss the semi-finals  \"I can recover \u0026 play in the finals\""
+        "id": 1,
+        "type": "a",
+        "text": "Josh has frequent sessions of binge eating and feels guilty afterwards. Participates in compensatory behaviors to 'make up' for the food eaten. 'I need to make up for the calories I've gained'"
     },
     {
-        "id":  1,
-        "type":  "b",
-        "text":  "Ross doesn\u0027t dwell on the past"
+        "id": 1,
+        "type": "b",
+        "text": "I will eat less later"
     },
     {
-        "id":  2,
-        "type":  "a",
-        "text":  "Chris lost his job after an economic downturn  \"I can get hired again\""
+        "id": 2,
+        "type": "a",
+        "text": "I need to stop eating"
     },
     {
-        "id":  2,
-        "type":  "b",
-        "text":  "Chris has hope for his future"
+        "id": 2,
+        "type": "b",
+        "text": "I will eat and be in control"
     },
     {
-        "id":  3,
-        "type":  "a",
-        "text":  "Grandfather John feels old watching young people in the park  \"I helped create this community\""
+        "id": 3,
+        "type": "a",
+        "text": "John constantly participates in Purging 'I ate too much'"
     },
     {
-        "id":  3,
-        "type":  "b",
-        "text":  "John is proud of his contributions and doesn\u0027t let age weigh him down"
+        "id": 3,
+        "type": "b",
+        "text": "I ate what I needed"
     },
     {
-        "id":  4,
-        "type":  "a",
-        "text":  "Nick felt isolated after hearing about a weekend party  \"I can invite and host friends for an event\""
+        "id": 4,
+        "type": "a",
+        "text": "Madison binge eats often"
     },
     {
-        "id":  4,
-        "type":  "b",
-        "text":  "Nick realizes he can create his own social opportunities"
+        "id": 4,
+        "type": "b",
+        "text": "My needs will be met in other ways"
     },
     {
-        "id":  5,
-        "type":  "a",
-        "text":  "Julian lost interest in knitting after discouragement  \"My happiness in pursuing a hobby is important\""
+        "id": 5,
+        "type": "a",
+        "text": "Eli avoids eating too much as he is worried about his body image."
     },
     {
-        "id":  5,
-        "type":  "b",
-        "text":  "Julian knows not everyone\u0027s opinions matter and doesn\u0027t let it drag her down"
+        "id": 5,
+        "type": "b",
+        "text": "I deserve to eat food I enjoy"
     },
     {
-        "id":  6,
-        "type":  "a",
-        "text":  "Jake has been experiencing fatigue after a family member\u0027s death  \"I am allowed to grieve\""
+        "id": 6,
+        "type": "a",
+        "text": "I'm too heavy"
     },
     {
-        "id":  6,
-        "type":  "b",
-        "text":  "Jake understands that death is normal and gives himself time to process grief"
+        "id": 6,
+        "type": "b",
+        "text": "My weight is not my worth"
     },
     {
-        "id":  7,
-        "type":  "a",
-        "text":  "Ava withdrew from friends and family after a traumatic accident  \"My friends and family are not at fault for the accident\""
+        "id": 7,
+        "type": "a",
+        "text": "I eat too much"
     },
     {
-        "id":  7,
-        "type":  "b",
-        "text":  "Ava realizes accidents happen and allows herself to forgive others"
+        "id": 7,
+        "type": "b",
+        "text": "Food is fuel"
     },
     {
-        "id":  8,
-        "type":  "a",
-        "text":  "Mary began avoiding people because she didn\u0027t feel safe  \"I will be fine; nobody is out there to get me\""
+        "id": 8,
+        "type": "a",
+        "text": "I can't afford those calories"
     },
     {
-        "id":  8,
-        "type":  "b",
-        "text":  "Mary realizes her fear is unwarranted and nobody is trying to harm her"
+        "id": 8,
+        "type": "b",
+        "text": "I trust my body and it's needs"
     }
 ]
