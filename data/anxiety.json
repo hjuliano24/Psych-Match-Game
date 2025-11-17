@@ -1,82 +1,82 @@
 ﻿[
     {
-        "id":  1,
-        "type":  "a",
-        "text":  "An injury made Ross miss the semi-finals  \"I can recover \u0026 play in the finals\""
+        "id": 1,
+        "type": "a",
+        "text": "Sky diving: 'The Parachute will malfunction, and I will not see my family again'"
     },
     {
-        "id":  1,
-        "type":  "b",
-        "text":  "Ross doesn\u0027t dwell on the past"
+        "id": 1,
+        "type": "b",
+        "text": "My fear is my body's response to a threat. Plus, Skydiving equipment is checked very intensely, there are 3 deployments to ensure I land safely"
     },
     {
-        "id":  2,
-        "type":  "a",
-        "text":  "Chris lost his job after an economic downturn  \"I can get hired again\""
+        "id": 2,
+        "type": "a",
+        "text": "Public Speaking: 'I will say something bad, and everyone will think I am dumb'"
     },
     {
-        "id":  2,
-        "type":  "b",
-        "text":  "Chris has hope for his future"
+        "id": 2,
+        "type": "b",
+        "text": "Most people are wanting to learn from my content not my mistakes"
     },
     {
-        "id":  3,
-        "type":  "a",
-        "text":  "Grandfather John feels old watching young people in the park  \"I helped create this community\""
+        "id": 3,
+        "type": "a",
+        "text": "Taking an Exam: 'If I get one question wrong, I'll fail the whole class'"
     },
     {
-        "id":  3,
-        "type":  "b",
-        "text":  "John is proud of his contributions and doesn\u0027t let age weigh him down"
+        "id": 3,
+        "type": "b",
+        "text": "My course grade is determined by multiple assignments. A single question does not determine my whole course grade"
     },
     {
-        "id":  4,
-        "type":  "a",
-        "text":  "Nick felt isolated after hearing about a weekend party  \"I can invite and host friends for an event\""
+        "id": 4,
+        "type": "a",
+        "text": "Job interview: 'I'll freeze up and stutter, therefore they will not hire me.'"
     },
     {
-        "id":  4,
-        "type":  "b",
-        "text":  "Nick realizes he can create his own social opportunities"
+        "id": 4,
+        "type": "b",
+        "text": "I have prepared well, regardless if in freeze, I can recover and still make a impression"
     },
     {
-        "id":  5,
-        "type":  "a",
-        "text":  "Julian lost interest in knitting after discouragement  \"My happiness in pursuing a hobby is important\""
+        "id": 5,
+        "type": "a",
+        "text": "Setting boundaries: 'This person will start to hate me and not value me as a person anymore'"
     },
     {
-        "id":  5,
-        "type":  "b",
-        "text":  "Julian knows not everyone\u0027s opinions matter and doesn\u0027t let it drag her down"
+        "id": 5,
+        "type": "b",
+        "text": "Healthy relationships accepts boundaries. They have encouraged me to express myself in the past"
     },
     {
-        "id":  6,
-        "type":  "a",
-        "text":  "Jake has been experiencing fatigue after a family member\u0027s death  \"I am allowed to grieve\""
+        "id": 6,
+        "type": "a",
+        "text": "Meeting someone new: 'This person will think I am weird and socially awkward'"
     },
     {
-        "id":  6,
-        "type":  "b",
-        "text":  "Jake understands that death is normal and gives himself time to process grief"
+        "id": 6,
+        "type": "b",
+        "text": "Everyone at this event is very friendly. Conversation here is going well, everyone gets nervous when meeting someone new"
     },
     {
-        "id":  7,
-        "type":  "a",
-        "text":  "Ava withdrew from friends and family after a traumatic accident  \"My friends and family are not at fault for the accident\""
+        "id": 7,
+        "type": "a",
+        "text": "Sitting in Traffic: 'I am going to get a bad reputation with my family'"
     },
     {
-        "id":  7,
-        "type":  "b",
-        "text":  "Ava realizes accidents happen and allows herself to forgive others"
+        "id": 7,
+        "type": "b",
+        "text": "I cannot control traffic. I will advise my family about the delay, I am still attending the event"
     },
     {
-        "id":  8,
-        "type":  "a",
-        "text":  "Mary began avoiding people because she didn\u0027t feel safe  \"I will be fine; nobody is out there to get me\""
+        "id": 8,
+        "type": "a",
+        "text": "Returning purchased item: 'The employee is going to think I am poor and cheap'"
     },
     {
-        "id":  8,
-        "type":  "b",
-        "text":  "Mary realizes her fear is unwarranted and nobody is trying to harm her"
+        "id": 8,
+        "type": "b",
+        "text": "Returns are part of their job description. I am allowed to return things that I did not use."
     }
 ]
