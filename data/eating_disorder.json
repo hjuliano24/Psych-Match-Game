@@ -2,81 +2,81 @@
     {
         "id": 1,
         "type": "a",
-        "text": "Josh has frequent sessions of binge eating and feels guilty afterwards. Participates in compensatory behaviors to 'make up' for the food eaten. 'I need to make up for the calories I've gained'"
+        "text": "Sky diving: 'The Parachute will malfunction, and I will not see my family again'"
     },
     {
         "id": 1,
         "type": "b",
-        "text": "I will eat less later"
+        "text": "My fear is my body's response to a threat. Plus, Skydiving equipment is checked very intensely, there are 3 deployments to ensure I land safely"
     },
     {
         "id": 2,
         "type": "a",
-        "text": "I need to stop eating"
+        "text": "Public Speaking: 'I will say something bad, and everyone will think I am dumb'"
     },
     {
         "id": 2,
         "type": "b",
-        "text": "I will eat and be in control"
+        "text": "Most people are wanting to learn from my content not my mistakes"
     },
     {
         "id": 3,
         "type": "a",
-        "text": "John constantly participates in Purging 'I ate too much'"
+        "text": "Taking an Exam: 'If I get one question wrong, I'll fail the whole class'"
     },
     {
         "id": 3,
         "type": "b",
-        "text": "I ate what I needed"
+        "text": "My course grade is determined by multiple assignments. A single question does not determine my whole course grade"
     },
     {
         "id": 4,
         "type": "a",
-        "text": "Madison binge eats often"
+        "text": "Job interview: 'I'll freeze up and stutter, therefore they will not hire me.'"
     },
     {
         "id": 4,
         "type": "b",
-        "text": "My needs will be met in other ways"
+        "text": "I have prepared well, regardless if in freeze, I can recover and still make a impression"
     },
     {
         "id": 5,
         "type": "a",
-        "text": "Eli avoids eating too much as he is worried about his body image."
+        "text": "Setting boundaries: 'This person will start to hate me and not value me as a person anymore'"
     },
     {
         "id": 5,
         "type": "b",
-        "text": "I deserve to eat food I enjoy"
+        "text": "Healthy relationships accepts boundaries. They have encouraged me to express myself in the past"
     },
     {
         "id": 6,
         "type": "a",
-        "text": "I'm too heavy"
+        "text": "Meeting someone new: 'This person will think I am weird and socially awkward'"
     },
     {
         "id": 6,
         "type": "b",
-        "text": "My weight is not my worth"
+        "text": "Everyone at this event is very friendly. Conversation here is going well, everyone gets nervous when meeting someone new"
     },
     {
         "id": 7,
         "type": "a",
-        "text": "I eat too much"
+        "text": "Sitting in Traffic: 'I am going to get a bad reputation with my family'"
     },
     {
         "id": 7,
         "type": "b",
-        "text": "Food is fuel"
+        "text": "I cannot control traffic. I will advise my family about the delay, I am still attending the event"
     },
     {
         "id": 8,
         "type": "a",
-        "text": "I can't afford those calories"
+        "text": "Returning purchased item: 'The employee is going to think I am poor and cheap'"
     },
     {
         "id": 8,
         "type": "b",
-        "text": "I trust my body and it's needs"
+        "text": "Returns are part of their job description. I am allowed to return things that I did not use."
     }
 ]

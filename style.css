@@ -238,3 +238,16 @@ p {
   width: 250px;
   padding: 15px 30px;
 }
+@media (max-width: 600px) {
+  .card-text {
+    font-size: clamp(7px, 3vw, 12px);
+    -webkit-line-clamp: 5;
+  }
+}
+
+@media (max-width: 400px) {
+  .card-text {
+    font-size: clamp(6px, 3vw, 11px);
+    -webkit-line-clamp: 4;
+  }
+}
